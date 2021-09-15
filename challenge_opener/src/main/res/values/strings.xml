@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ChallengeOpener</string>
+    <string name="menu_challenge_opener_info_description">Menu item: Info about the app</string>
+    <string name="menu_challenger_opener_info_title">Info about the app</string>
+    <string name="menu_challenger_opener_exit_description">Menu item: Exit the app</string>
+    <string name="manu_challenger_opener_exit_title">Exit the app</string>
+    <string name="toolbar_challenge_opener_title_txt">Android Academy Challenges</string>
+    <string name="txtview_challenges_detail_descriptionlabel_txt">Description</string>
+
+    <string name="alertdg_exit_title">Are you sure you want to exit the app?</string>
+    <string name="alertdg_exit_txt">Exit the Challenge opener app</string>
+    <string name="alertdg_exit_accept_txt">Yes! I\'ll be back soon enough</string>
+    <string name="alertdg_exit_cancel_txt">No! let me return</string>
+
+    <string name="alertdg_info_title">Here is some advice for our app</string>
+    <string name="alertdg_info_txt">If too many Challenges are added, you can always scroll to the beginning of the list by clicking the Appbar title :D</string>
+    <string name="alertdg_info_understoodbtn_txt">Got it!</string>
+</resources>

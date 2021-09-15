@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_info"
+        android:contentDescription="@string/menu_challenge_opener_info_description"
+        android:title="@string/menu_challenger_opener_info_title"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:contentDescription="@string/menu_challenger_opener_exit_description"
+        android:title="@string/manu_challenger_opener_exit_title"
+        app:showAsAction="never" />
+</menu>
