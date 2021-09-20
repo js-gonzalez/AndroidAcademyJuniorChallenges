@@ -1,6 +1,5 @@
 package com.example.challengeopener
 
-import android.content.Context
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -10,11 +9,13 @@ import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.challengeopener.databinding.RecyclerviewChallengesItemBinding
 
-class ChallengesAdapter(private val context: Context, private var list: List<NewActivityInfo>) :
+class ChallengesAdapter(private var list: List<NewActivityInfo>) :
     RecyclerView.Adapter<ChallengesAdapter.ChallengesHolder>() {
 
     inner class ChallengesHolder(private var binding: RecyclerviewChallengesItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
+        private val context = binding.btnChallengesOpener.context
+
         fun bind(position: Int) {
             val item = list[position]
             binding.run {
@@ -23,9 +24,10 @@ class ChallengesAdapter(private val context: Context, private var list: List<New
                 btnChallengesOpener.text = item.activityTitle
                 btnChallengesOpener.icon = getDrawable(context, item.activityIcon)
                 btnChallengesOpener.setOnClickListener {
-                    when(position){
+                    when (position) {
                         //0 -> context.startActivity(Intent(context,::class.java))
-                        else -> {}
+                        else -> {
+                        }
                     }
                 }
                 togglebtnChallengesDetailopener.setOnCheckedChangeListener { _, isChecked ->
