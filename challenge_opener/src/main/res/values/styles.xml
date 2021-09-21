@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ToolbarChallengeOpenerStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:background">@color/cyan_500</item>
+        <item name="android:backgroundTint">@color/cyan_500</item>
+        <item name="android:elevation">@dimen/toolbar_challenge_opener_elevation</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="android:tint">?attr/colorControlNormal</item>
+    </style>
+
+    <style name="ToolbarChallengeOpenerPopupStyle" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:elevation">@dimen/toolbar_challenge_opener_elevation</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="android:tint">?attr/colorControlNormal</item>
+    </style>
+
+    <style name="ToolbarChallengeOpenerStyle.title" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textSize">@dimen/txtView_toolbar_title_textSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BtnChallengesOpenerStyle" parent="Widget.MaterialComponents.Button">
+        <item name="shapeAppearanceOverlay">@style/BtnCorneredStyle</item>
+        <item name="android:layout_margin">@dimen/btn_challenges_opener_margin</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/blue_700</item>
+        <item name="android:textSize">@dimen/btn_challenges_opener_txtSize</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="BtnCorneredStyle">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">@dimen/btn_recyclerView_challenge_cornerSize</item>
+    </style>
+
+    <style name="TxtViewExpandableViewActivityDescriptionStyle">
+        <item name="android:layout_margin">
+            @dimen/txtView_expandableView_activityDescription_margin
+        </item>
+    </style>
+
+    <style name="ToggleBtnChallengesDetailOpenerStyle">
+        <item name="android:layout_marginStart">@dimen/toggleBtn_challenges_detailOpener_margin
+        </item>
+    </style>
+
+    <style name="TxtViewChallengesDetailDescriptionStyle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/txtView_challenges_detail_description_txtSize</item>
+        <item name="android:layout_marginStart">
+            @dimen/txtView_challenges_detail_description_margin
+        </item>
+        <item name="android:layout_marginBottom">
+            @dimen/txtView_challenges_detail_description_margin
+        </item>
+        <item name="android:layout_marginEnd">@dimen/txtView_challenges_detail_description_margin
+        </item>
+    </style>
+
+    <style name="AlertDialogTitleTextStyle">
+        <item name="color">@color/yellow_light</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="AlertDialogPositiveBtnStyle">
+        <item name="color">@color/blue_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintlayout_challenges_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_challenges_opener"
+        style="@style/BtnChallengesOpenerStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/constraintlayout_challenges_detail_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/togglebtn_challenges_detailopener"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Hola" />
+
+    <CheckBox
+        android:id="@+id/togglebtn_challenges_detailopener"
+        style="@style/ToggleBtnChallengesDetailOpenerStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/sl_help"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintBottom_toBottomOf="@id/btn_challenges_opener"
+        app:layout_constraintEnd_toStartOf="@id/btn_challenges_opener"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_challenges_opener" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintlayout_challenges_detail_container"
+        style="@style/TxtViewChallengesDetailDescriptionStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_challenges_opener">
+
+        <TextView
+            android:id="@+id/txtview_challenges_detail_descriptionlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtView_challenges_detail_descriptionLabel_txt"
+            app:layout_constraintBottom_toTopOf="@id/txtview_challenges_detail_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/txtview_challenges_detail_description"
+            style="@style/TxtViewChallengesDetailDescriptionStyle"
+            app:layout_constraintStart_toStartOf="@id/txtview_challenges_detail_descriptionlabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtview_challenges_detail_descriptionlabel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="skdjflsdkjf" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
