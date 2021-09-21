@@ -3,13 +3,13 @@
     <dimen name="toolbar_challenge_opener_elevation">4dp</dimen>
     <dimen name="scrollview_challenge_activity_opener_margin">56dp</dimen>
     <dimen name="icon_help_size">32dp</dimen>
-    <dimen name="txtview_challenges_detail_description_txtsize">18sp</dimen>
-    <dimen name="txtview_challenges_detail_description_margin">8dp</dimen>
-    <dimen name="txtview_toolbar_title_textsize">20sp</dimen>
+    <dimen name="txtView_challenges_detail_description_txtSize">18sp</dimen>
+    <dimen name="txtView_challenges_detail_description_margin">8dp</dimen>
+    <dimen name="txtView_toolbar_title_textSize">20sp</dimen>
     <dimen name="btn_challenges_opener_margin">8dp</dimen>
-    <dimen name="btn_recyclerview_challenge_cornersize">16dp</dimen>
-    <dimen name="btn_challenges_opener_txtsize">24sp</dimen>
-    <dimen name="togglebtn_challenges_detailopener_margin">8dp</dimen>
-    <dimen name="txtview_expandableview_activitydescription_margin">8dp</dimen>
+    <dimen name="btn_recyclerView_challenge_cornerSize">16dp</dimen>
+    <dimen name="btn_challenges_opener_txtSize">24sp</dimen>
+    <dimen name="toggleBtn_challenges_detailOpener_margin">8dp</dimen>
+    <dimen name="txtView_expandableView_activityDescription_margin">8dp</dimen>
     <dimen name="icon_info_size">32dp</dimen>
 </resources>

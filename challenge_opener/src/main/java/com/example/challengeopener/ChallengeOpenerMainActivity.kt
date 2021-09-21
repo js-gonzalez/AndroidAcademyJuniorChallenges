@@ -20,7 +20,7 @@ class ChallengeOpenerMainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         binding.recyclerviewChallengeActivityOpener.adapter =
-            ChallengesAdapter(NewActivityInfoList().getList())
+            ChallengesAdapter(NewActivityInfoList().list)
         binding.includeToolbarChallengeOpener.toolbarChallengeOpenerTitle.setOnClickListener {
             binding.scrollviewChallengeActivityOpener.smoothScrollTo(0, 0)
         }
@@ -46,9 +46,9 @@ class ChallengeOpenerMainActivity : AppCompatActivity() {
 
     private fun showInfoAlertDialog() =
         MaterialAlertDialogBuilder(this, R.style.AlertDialogStyleInfo)
-            .setTitle(getString(R.string.alertdg_info_title))
-            .setMessage(getString(R.string.alertdg_info_txt))
-            .setPositiveButton(getString(R.string.alertdg_info_understoodbtn_txt)) { dialog, _ -> dialog.dismiss() }
+            .setTitle(getString(R.string.alertDialog_info_title))
+            .setMessage(getString(R.string.alertDialog_info_txt))
+            .setPositiveButton(getString(R.string.alertDialog_info_understoodBtn_txt)) { dialog, _ -> dialog.dismiss() }
             .setCancelable(false)
             .setIcon(AppCompatResources.getDrawable(applicationContext, R.drawable.ic_info))
             .create()
@@ -56,13 +56,13 @@ class ChallengeOpenerMainActivity : AppCompatActivity() {
 
     private fun showExitAlertDialog() =
         MaterialAlertDialogBuilder(this, R.style.AlertDialogStyleCancel)
-            .setTitle(getString(R.string.alertdg_exit_title))
-            .setMessage(getString(R.string.alertdg_exit_txt))
-            .setPositiveButton(getString(R.string.alertdg_exit_accept_txt)) { dialog, _ ->
+            .setTitle(getString(R.string.alertDialog_exit_title))
+            .setMessage(getString(R.string.alertDialog_exit_txt))
+            .setPositiveButton(getString(R.string.alertDialog_exit_accept_txt)) { dialog, _ ->
                 dialog.dismiss()
                 finish()
             }
-            .setNeutralButton(getString(R.string.alertdg_exit_cancel_txt)) { dialog, _ ->
+            .setNeutralButton(getString(R.string.alertDialog_exit_cancel_txt)) { dialog, _ ->
                 dialog.dismiss()
             }
             .setCancelable(false)

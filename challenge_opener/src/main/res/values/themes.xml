@@ -19,14 +19,14 @@
         <item name="colorSecondary">@color/yellow_dark</item>
         <item name="colorSurface">@color/blue_dark</item>
         <item name="colorOnSurface">@color/yellow_light</item>
-        <item name="materialAlertDialogTitleTextStyle">@style/alertdialog_title_text_style</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialogTitleTextStyle</item>
     </style>
     <style name="AlertDialogStyleCancel" parent="Theme.MaterialComponents.Dialog.Alert">
         <item name="colorPrimary">@color/white</item>
         <item name="colorSecondary">@color/yellow_dark</item>
         <item name="colorSurface">@color/yellow_dark</item>
         <item name="colorOnSurface">@color/yellow_light</item>
-        <item name="materialAlertDialogTitleTextStyle">@style/alertdialog_title_text_style</item>
-        <item name="buttonBarPositiveButtonStyle">@style/alertdialog_possitive_btn_style</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialogTitleTextStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/AlertDialogPositiveBtnStyle</item>
     </style>
 </resources>

@@ -6,16 +6,16 @@
 
     <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/main_toolbar"
-        style="@style/toolbar_challenge_opener_style"
+        style="@style/ToolbarChallengeOpenerStyle"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:menu="@menu/menu_challenge_opener_main"
-        app:popupTheme="@style/toolbar_challenge_opener_popup_style"
+        app:popupTheme="@style/ToolbarChallengeOpenerPopupStyle"
         app:title="">
 
         <TextView
             android:id="@+id/toolbar_challenge_opener_title"
-            style="@style/toolbar_challenge_opener_style.title"
+            style="@style/ToolbarChallengeOpenerStyle.title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/toolbar_challenge_opener_title_txt"

@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.content.res.AppCompatResources.getDrawable
 import androidx.core.content.ContextCompat.startActivity
+import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.example.challengeopener.databinding.RecyclerviewChallengesItemBinding
 
@@ -38,11 +39,7 @@ class ChallengesAdapter(private var list: List<NewActivityInfo>) :
         }
 
         fun toggleDetailsVisibility(isChecked: Boolean) {
-            if (isChecked) {
-                binding.constraintlayoutChallengesDetailContainer.visibility = View.VISIBLE
-            } else {
-                binding.constraintlayoutChallengesDetailContainer.visibility = View.GONE
-            }
+            binding.constraintlayoutChallengesDetailContainer.isVisible = isChecked
         }
     }
 

@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="challenge_opener/src/main/res/drawable/ic_launcher_background.xml" value="0.2421875" />
         <entry key="challenge_opener/src/main/res/layout/activity_challenge_opener_main.xml" value="0.13994565217391305" />
         <entry key="challenge_opener/src/main/res/layout/recyclerview_challenges_item.xml" value="0.13994565217391305" />
         <entry key="challenge_opener/src/main/res/layout/toolbar_challenge_opener_main.xml" value="0.13994565217391305" />

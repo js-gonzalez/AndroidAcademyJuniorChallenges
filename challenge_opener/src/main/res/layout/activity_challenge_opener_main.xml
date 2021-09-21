@@ -24,9 +24,7 @@
             android:layout_height="wrap_content"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             tools:listitem="@layout/recyclerview_challenges_item"
-            tools:itemCount="6"
-            />
-
+            tools:itemCount="6" />
 
     </androidx.core.widget.NestedScrollView>
 
