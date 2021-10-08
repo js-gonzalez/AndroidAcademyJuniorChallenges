@@ -10,7 +10,7 @@ The Android project is structured in Android libraries with the challenge_opener
 | **ui_design_copy** | ui design copy of hbo_max user selection | Layout, Compose, XML, Theme, Style
 | **rxjava_exercise** | rxjava exercises for time-consuming use cases | RxJava, Clean Architecture, Dagger-Hilt, Mockito
 | **api_image_viewer** | artwork images visualization through api consumption | Retrofit, Coroutines, ViewModel
-| **...** | ... |
+| **...** | ... | ...
 
 ## Project Guidelines
 

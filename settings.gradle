@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidAcademyJuniorChallenges"
 include ':challenge_opener'
+include ':ui_design_copy'

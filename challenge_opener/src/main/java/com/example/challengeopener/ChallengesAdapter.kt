@@ -9,6 +9,7 @@ import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.example.challengeopener.databinding.RecyclerviewChallengesItemBinding
+import com.example.ui_design_copy.UiDesignCopyMainActivity
 
 class ChallengesAdapter(private var list: List<NewActivityInfo>) :
     RecyclerView.Adapter<ChallengesAdapter.ChallengesHolder>() {
@@ -26,7 +27,7 @@ class ChallengesAdapter(private var list: List<NewActivityInfo>) :
                 btnChallengesOpener.icon = getDrawable(context, item.activityIcon)
                 btnChallengesOpener.setOnClickListener {
                     when (position) {
-                        //0 -> context.startActivity(Intent(context,::class.java))
+                        0 -> context.startActivity(Intent(context, UiDesignCopyMainActivity::class.java))
                         else -> {
                         }
                     }

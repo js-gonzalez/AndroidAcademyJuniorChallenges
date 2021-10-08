@@ -2,12 +2,12 @@ package com.example.challengeopener
 
 class NewActivityInfoList {
     val list: List<NewActivityInfo> by lazy {
-        List(7) { // Number of initial elements
+        mutableListOf<NewActivityInfo>(
             NewActivityInfo(
-                "A new challenge example",
-                "This is a challenge that will be developed soon",
-                R.drawable.ic_launcher_foreground
+                "UI Design Copy",
+                "XML and Compose design copy challenge for a HBOMax-Profile Select Screen",
+                R.drawable.ic_compare
             )
-        }
+        )
     }
 }

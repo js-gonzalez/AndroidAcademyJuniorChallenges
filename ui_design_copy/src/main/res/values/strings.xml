@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ui_Design_Copy</string>
+    <string name="btn_manageProfiles_adult_description">Add an Adult Profile</string>
+    <string name="btn_manageProfiles_adult_txt">Adult</string>
+    <string name="btn_manageProfiles_kid_description">Add a Kid Profile</string>
+    <string name="btn_manageProfiles_kid_txt">Kid</string>
+    <string name="btn_manageProfiles_manage_txt">Manage Profiles</string>
+    <string name="hbomax_logo_description">HBO Max</string>
+    <string name="ic_cast_description">Cast icon</string>
+    <string name="title_question_txt">\"Who is watching?\"</string>
+</resources>
