@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ic_navbar_size">20dp</dimen>
+    <dimen name="ic_blocked_size">15dp</dimen>
+    <dimen name="user_name">16sp</dimen>
+    <dimen name="viewGroup_profile_hbo_padding">16dp</dimen>
+    <dimen name="viewGroup_profileScreen_padding_bottom">16dp</dimen>
+    <dimen name="img_profile_hbo_borderWidth">3dp</dimen>
+
+    <dimen name="viewGroup_padding_0dp">0dp</dimen>
+    <dimen name="viewGroup_padding_4dp">4dp</dimen>
+    <dimen name="viewGroup_manageProfiles_padding">8dp</dimen>
+    <dimen name="btn_manageProfiles_adult_width">120dp</dimen>
+    <dimen name="btn_manageProfiles_txtSize">18sp</dimen>
+    <dimen name="spacer_addBtns_width">50dp</dimen>
+    <dimen name="viewGroup_manageProfiles_padding_bottom">32dp</dimen>
+    <dimen name="topAppBar_hboMaxToolbar_padding">24dp</dimen>
+    <dimen name="topAppBar_hboMaxToolbar_padding_top">16dp</dimen>
+    <dimen name="ic_hbo_width">130dp</dimen>
+    <dimen name="title_question_size">30sp</dimen>
+    <dimen name="img_profile_size">140dp</dimen>
+</resources>

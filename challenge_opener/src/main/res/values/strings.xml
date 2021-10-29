@@ -15,4 +15,7 @@
     <string name="alertDialog_info_title">Here is some advice for our app</string>
     <string name="alertDialog_info_txt">If too many Challenges are added, you can always scroll to the beginning of the list by clicking the Appbar title :D</string>
     <string name="alertDialog_info_understoodBtn_txt">Got it!</string>
+
+    <string name="ui_design_copy_title">UI Design Copy</string>
+    <string name="ui_design_copy_description">XML and Compose design copy challenge for a HBOMax-Profile Select Screen</string>
 </resources>

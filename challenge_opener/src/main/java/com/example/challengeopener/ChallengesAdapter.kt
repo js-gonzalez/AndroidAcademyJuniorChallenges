@@ -5,10 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.content.res.AppCompatResources.getDrawable
-import androidx.core.content.ContextCompat.startActivity
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
 import com.example.challengeopener.databinding.RecyclerviewChallengesItemBinding
+import com.example.ui_design_copy.UiDesignCopyMainActivity
 
 class ChallengesAdapter(private var list: List<NewActivityInfo>) :
     RecyclerView.Adapter<ChallengesAdapter.ChallengesHolder>() {
@@ -21,12 +21,12 @@ class ChallengesAdapter(private var list: List<NewActivityInfo>) :
             val item = list[position]
             binding.run {
                 constraintlayoutChallengesDetailContainer.visibility = View.GONE
-                txtviewChallengesDetailDescription.text = item.activityDescription
-                btnChallengesOpener.text = item.activityTitle
+                txtviewChallengesDetailDescription.text = context.getString(item.activityDescription)
+                btnChallengesOpener.text = context.getString(item.activityTitle)
                 btnChallengesOpener.icon = getDrawable(context, item.activityIcon)
                 btnChallengesOpener.setOnClickListener {
                     when (position) {
-                        //0 -> context.startActivity(Intent(context,::class.java))
+                        0 -> context.startActivity(Intent(context, UiDesignCopyMainActivity::class.java))
                         else -> {
                         }
                     }
@@ -34,11 +34,10 @@ class ChallengesAdapter(private var list: List<NewActivityInfo>) :
                 togglebtnChallengesDetailopener.setOnCheckedChangeListener { _, isChecked ->
                     toggleDetailsVisibility(isChecked)
                 }
-
             }
         }
 
-        fun toggleDetailsVisibility(isChecked: Boolean) {
+        private fun toggleDetailsVisibility(isChecked: Boolean) {
             binding.constraintlayoutChallengesDetailContainer.isVisible = isChecked
         }
     }

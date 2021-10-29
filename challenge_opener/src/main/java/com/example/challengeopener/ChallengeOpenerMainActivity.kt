@@ -1,10 +1,10 @@
 package com.example.challengeopener
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.viewbinding.library.activity.viewBinding
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.appcompat.widget.Toolbar
 import com.example.challengeopener.databinding.ActivityChallengeOpenerMainBinding

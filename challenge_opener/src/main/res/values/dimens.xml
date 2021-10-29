@@ -12,4 +12,5 @@
     <dimen name="toggleBtn_challenges_detailOpener_margin">8dp</dimen>
     <dimen name="txtView_expandableView_activityDescription_margin">8dp</dimen>
     <dimen name="icon_info_size">32dp</dimen>
+    <dimen name="icon_challengeOpener_size">108dp</dimen>
 </resources>

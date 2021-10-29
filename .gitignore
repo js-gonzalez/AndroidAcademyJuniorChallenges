@@ -46,6 +46,7 @@ local.properties
 .idea/.gitignore
 .idea/compiler.xml
 .idea/deploymentTargetDropDown.xml
+.idea/misc.xml
 # Version control
 vcs.xml
 

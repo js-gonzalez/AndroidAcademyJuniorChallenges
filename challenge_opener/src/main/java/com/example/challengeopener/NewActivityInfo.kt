@@ -1,9 +1,10 @@
 package com.example.challengeopener
 
 import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
 
 data class NewActivityInfo(
-    val activityTitle: String,
-    val activityDescription: String,
+    @StringRes val activityTitle: Int,
+    @StringRes val activityDescription: Int,
     @DrawableRes val activityIcon: Int
 )

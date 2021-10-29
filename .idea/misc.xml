@@ -3,11 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../layout/compose-model-1632265919561.xml" value="0.2039695945945946" />
+        <entry key="../../../layout/compose-model-1633714539463.xml" value="0.25" />
+        <entry key="../../../layout/compose-model-1633726115156.xml" value="0.17876588021778583" />
+        <entry key="challenge_opener/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.38055555555555554" />
+        <entry key="challenge_opener/src/main/res/drawable/ic_compare.xml" value="0.38055555555555554" />
         <entry key="challenge_opener/src/main/res/drawable/ic_launcher_background.xml" value="0.2421875" />
         <entry key="challenge_opener/src/main/res/layout/activity_challenge_opener_main.xml" value="0.13994565217391305" />
         <entry key="challenge_opener/src/main/res/layout/recyclerview_challenges_item.xml" value="0.13994565217391305" />
         <entry key="challenge_opener/src/main/res/layout/toolbar_challenge_opener_main.xml" value="0.13994565217391305" />
         <entry key="challenge_opener/src/main/res/menu/menu_challenge_opener_main.xml" value="0.22604166666666667" />
+        <entry key="ui_design_copy/src/main/res/drawable/gradient_background.xml" value="0.25052083333333336" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_add.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_broken_image.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_cast.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_error.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_hbo_max_logo.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_image_search.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_launcher_background.xml" value="0.2421875" />
+        <entry key="ui_design_copy/src/main/res/drawable/ic_lock.xml" value="0.2421875" />
       </map>
     </option>
   </component>
